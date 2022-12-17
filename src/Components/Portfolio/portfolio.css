@@ -29,9 +29,10 @@
 }
 
 .port__btn{
-    background-color: var(--clr-main);
-    color: white;
-    border: none;
+    border-radius: 2px; 
+    color: rgb(252, 252, 252);
+    background-color: rgb(121, 121, 255);
+    border: 3px solid rgb(121, 121, 255);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;

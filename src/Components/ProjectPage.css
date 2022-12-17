@@ -19,11 +19,14 @@
 }
 
 .proj_btn {
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    border-radius: 3px; 
+    color: rgb(252, 252, 252);
+    background-color: rgb(121, 121, 255);
+    border: 3px solid rgb(121, 121, 255);
     width: 10em;
     height: 4em;
-    background-color: var(--clr-main);
-    color: white;
-    border: none;
     margin-bottom: 50px;
 }
 
