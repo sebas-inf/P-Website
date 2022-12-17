@@ -1,18 +1,19 @@
 import React from 'react';
-import ProfilePic from './../../images/Albert_Gator.png';
+import ProfilePic from './../../images/PFP.jpg';
 
 import './intro.css';
 
 const Introduction = () => {
     return (
         <body>
-            <div class="tile__intro">
+            <div class="title__intro">
                 <div class="intro">
                     <img class="self_image" src={ProfilePic}/>
                     <div class="intro__section">
-                        <h1 class="intro__title">Hi, my name is Albert Gator</h1>
-                        <p class="intro__subtitle">UF Gators Mascot</p>
-                        <p class="intro__memo">Proud Gator football fan and husband of Alberta. Go Gators!</p>
+                        <h1 class = "intro__title">Hi, my name is Sebastian Infante Murguia</h1>
+                        <p class = "intro__subtitle">Computer Engineering Undergraduate</p>
+                        <p class = "intro__memo">I am currently a student in the University of South Florida in the Engineering department seeking an internship in Software Engineering.</p>
+                        <a href= "mailto: sebinfante12@gmail.com" class="header-button">Contact Me</a>
                     </div>
                 </div>
             </div>

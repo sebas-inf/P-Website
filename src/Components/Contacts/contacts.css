@@ -3,4 +3,22 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 2em;
+    background-color: rgb(214, 255, 187);
+}
+.sch{
+    padding-right: 20px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.linked{
+    padding-right: 20px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.email{
+    padding-right: 20px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }

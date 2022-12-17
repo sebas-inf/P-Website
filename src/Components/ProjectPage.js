@@ -1,9 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 //images
-import Project1 from "../images/project1.png"
+import Project1 from "../images/project2.png"
 import Project2 from "../images/project2.png"
-import Project3 from "../images/project3.png"
+
 
 //Components
 import Header from './Header';
@@ -20,30 +20,22 @@ const ProjectPage = () => {
 
                 <div class="project">
                     <img src={Project1}/>
-                    <h3>Project title</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                         a type specimen book
+                    <h3>Trivia Game</h3>
+                    <p>This is a trivia game tha was created using python. The game works by importing a class from a file, then importing the questions function from another file, and putting all of them together into a sigle file that will run the game and keep the scores
+                        to decide a winner. The questions are in a multiple choice format and each player receives 5 questions. After each player has been asked 5 questions, the one with the most right answers wins. The program was created in python, using classes, dictionaries, and lists.
+
                     </p>
                 </div>
 
                 <div class="project">
                     <img src={Project2}/>
-                    <h3>Project title</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                         a type specimen book
+                    <h3>Shopping Cart</h3>
+                    <p>This program creates a shopping list for the user. The program will take input of item name, item price, and item quatity. After receiving that input the program will return a chart that lists all the items and their respective information. 
+                        This program was created in python using classes and lists.
                     </p>
                 </div>
 
-                <div class="project">
-                    <img src={Project3}/>
-                    <h3>Project title</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-                         a type specimen book
-                    </p>
-                </div>
+                
 
                 <button onClick={() => {navigate("/")}} class="proj_btn">Go Home</button>
             </section>

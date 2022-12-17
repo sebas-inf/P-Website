@@ -1,6 +1,8 @@
-.tile__intro {
+.title__intro {
     width: 100%;
-    background-color: var(--clr-tile);
+    background-color: rgb(214, 255, 187);
+    border: 3px solid rgb(214, 255, 187);
+    border-radius: 3px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,12 +26,31 @@
 }
 
 .intro__subtitle {
-    background-color: var(--clr-main);
-    color: var(--clr-light);
+    background-color: rgb(121, 121, 255);
+    border: 3px solid rgb(121, 121, 255);
+    border-radius: 3px; 
+    color: rgb(252, 252, 252);
     text-align: right; 
     padding-right: 20px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+}
+
+.header-button { 
+    /* Display block - DON'T BE IN-LINE WITH ANYONE */
+    display: block;
+    /* MARGIN (CENTER THE ITEM) */
+   
+    /* CENTER THE TEXT WITHIN THE ITEM */
+    text-align:center;
+    width: 125px;
+    /* INTERNAL PUSH (TOP & BOTTOM)*/
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    border-radius: 3px; 
+    color: rgb(252, 252, 252);
+    background-color: rgb(121, 121, 255);
+    border: 3px solid rgb(121, 121, 255);
 }
 
 @media (min-width: 800px) {

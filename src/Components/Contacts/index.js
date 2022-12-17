@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import './contacts.css'
+import './contacts.css';
 
 const Contacts = () => {
     return (
@@ -9,9 +9,8 @@ const Contacts = () => {
             <h1 class="cont_title">Contact Me</h1>
 
             <section class="contacts">
-                <body>Email: ufstudent@ufl.edu</body>
-                <body>LinkedIn: linkedin.com/ufstudent</body>
-                <body>Personal Email: ufstudent2312@gmail.com</body>
+                <body class = 'linked'>LinkedIn: https://www.linkedin.com/in/sebastian-infante-murguia-670817220/</body>
+                <body class = 'email'>Personal Email: sebinfante12@gmail.com</body>
             </section>
         </body>
     )

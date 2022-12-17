@@ -1,45 +1,61 @@
-import React from 'react'
-import Image1 from './../../images/SASEball.png';
-import Image2 from './../../images/azure.png';
-import Image3 from './../../images/publix.png';
+import React from "react";
 
-import "./Experiences.css";
+import './Experiences.css';
 
-const Experiences = () => {
-    return (
-        <body>
-            <h3 class="exp__title">Experiences</h3>
-            <div class="ornament"></div>
-            <div class="exp__tile">
-                <div class="exp__list">
-                    {/* COPY PASTE FROM HERE */}
-                    <div class="exp">
-                        <img src={Image1}/>
-                        <div class="exp__desc">
-                            <h1 class="exp__name">SASE - Member</h1>
-                            <p class="exp__body">Engage with SASE members to develop professionally.</p>
+import Image1 from '../../images/SHPE.PNG';
+import Image2 from '../../images/Python-logo.jpg';
+import Image3 from '../../images/USFSCP.PNG';
+import Image4 from '../../images/JAVAS.PNG';
+import Image5 from '../../images/LPH.PNG';
+
+
+const Expirience = () => {
+    return(
+        <div>
+            <body>
+                <h3 class='exp__title'>Experience</h3>
+                <div class='ornament'></div>
+                <div class = 'exp__tile'>
+                    <div class="exp__list">
+                    <div class = 'exp'>
+                            <img src ={Image1}/>
+                            <div class="exp__desc">
+                                <h1 class = "exp__name">SHPE - Member</h1>
+                                <p class = 'exp__body'>(Society of Hispanic Profesional Engineers) Participated in career and resume workshops</p>
+                            </div>
                         </div>
-                    </div>
-                    {/* COPY PASTE END HERE */}
-                    <div class="exp">
-                        <img src={Image2}/>
-                        <div class="exp__desc">
-                            <h1 class="exp__name">Azurion - SWE Intern</h1>
-                            <p class="exp__body">Deployed my website on azure.</p>
+                        <div class = 'exp'>
+                            <img src ={Image2}/>
+                            <div class="exp__desc">
+                                <h1 class = "exp__name">Python</h1>
+                                <p class = 'exp__body'>Intermediate level profficiency with phython</p>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="exp">
-                        <img src={Image3}/>
-                        <div class="exp__desc">
-                            <h1 class="exp__name">Publix - Self Checkout Intern</h1>
-                            <p class="exp__body">Scanned my own grocerys every time I go to Publix.</p>
+                        <div class = 'exp'>
+                            <img src ={Image3}/>
+                            <div class="exp__desc">
+                                <h1 class = "exp__name">SCP - Member</h1>
+                                <p class = 'exp__body'>(Society of competitive programmers) Participated in C++ workshops</p>
+                            </div>
+                        </div>
+                        <div class = 'exp'>
+                            <img src ={Image4}/>
+                            <div class="exp__desc">
+                                <h1 class = "exp__name">JavaScypt</h1>
+                                <p class = 'exp__body'>Elementary profficiency with JavaScript</p>
+                            </div>
+                        </div>
+                        <div class = 'exp'>
+                            <img src ={Image5}/>
+                            <div class="exp__desc">
+                                <h1 class = "exp__name">LifePath Thrift Store - Volunteer</h1>
+                                <p class = 'exp__body'>Trained new volunteers and organized incoming clothing</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </body>
+            </body>
+        </div>
     )
 }
-
-export default Experiences;
+ export default Expirience;

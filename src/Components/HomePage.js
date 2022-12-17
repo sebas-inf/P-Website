@@ -4,6 +4,7 @@ import Introduction from './Introduction';
 import Experiences from './Experiences';
 import Portfolio from './Portfolio';
 import Contacts from './Contacts';
+import Certifications from './Certifications';
 
 const HomePage = () => {
     return (
@@ -11,6 +12,7 @@ const HomePage = () => {
             <Header/>
             <Introduction/>
             <Experiences/>
+            <Certifications/>
             <Portfolio/>
             <Contacts/>
         </div>
