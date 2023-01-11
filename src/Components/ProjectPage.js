@@ -21,8 +21,8 @@ const ProjectPage = () => {
                 <div class="project">
                     <img src={Project1}/>
                     <h3>Trivia Game</h3>
-                    <p>This is a trivia game tha was created using python. The game works by importing a class from a file, then importing the questions function from another file, and putting all of them together into a sigle file that will run the game and keep the scores
-                        to decide a winner. The questions are in a multiple choice format and each player receives 5 questions. After each player has been asked 5 questions, the one with the most right answers wins. The program was created in python, using classes, dictionaries, and lists.
+                    <p>This is a trivia game that was created using python. The game works by importing a class from a file, then importing the questions function from another file, and putting all of them together into a single file that will run the game and keep the scores to decide a winner. 
+                    The questions are in a multiple-choice format and each player receives 5 questions. After each player has been asked 5 questions, the one with the most right answers wins. The program was created in python, using classes, dictionaries, and lists.
 
                     </p>
                 </div>
@@ -30,7 +30,7 @@ const ProjectPage = () => {
                 <div class="project">
                     <img src={Project2}/>
                     <h3>Shopping Cart</h3>
-                    <p>This program creates a shopping list for the user. The program will take input of item name, item price, and item quatity. After receiving that input the program will return a chart that lists all the items and their respective information. 
+                    <p>This program creates a shopping list for the user. The program will take input of item name, item price, and item quantity. After receiving that input the program will return a chart that lists all the items and their respective information. 
                         This program was created in python using classes and lists.
                     </p>
                 </div>
