@@ -21,14 +21,14 @@ const Expirience = () => {
                             <img src ={Image1}/>
                             <div class="exp__desc">
                                 <h1 class = "exp__name">SHPE - Member</h1>
-                                <p class = 'exp__body'>(Society of Hispanic Profesional Engineers) Participated in career and resume workshops</p>
+                                <p class = 'exp__body'>(Society of Hispanic Professional Engineers) Participated in career and resume workshops</p>
                             </div>
                         </div>
                         <div class = 'exp'>
                             <img src ={Image2}/>
                             <div class="exp__desc">
                                 <h1 class = "exp__name">Python</h1>
-                                <p class = 'exp__body'>Intermediate level profficiency with phython</p>
+                                <p class = 'exp__body'>Intermediate level proficiency with python</p>
                             </div>
                         </div>
                         <div class = 'exp'>
@@ -42,7 +42,7 @@ const Expirience = () => {
                             <img src ={Image4}/>
                             <div class="exp__desc">
                                 <h1 class = "exp__name">JavaScypt</h1>
-                                <p class = 'exp__body'>Elementary profficiency with JavaScript</p>
+                                <p class = 'exp__body'>Elementary proficiency with JavaScript</p>
                             </div>
                         </div>
                         <div class = 'exp'>
