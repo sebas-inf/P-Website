@@ -17,7 +17,7 @@ const Cert = () => {
                             <img src ={Image1}/>
                             <div class="cert__desc">
                                 <h1 class = "cert__name">Gold Seal of Biliteracy</h1>
-                                <p class = 'cert__body'>High profficiency in another language</p>
+                                <p class = 'cert__body'>High proficiency in another language</p>
                             </div>
                         </div>
                         <div class = 'cert'>
