@@ -1,6 +1,6 @@
 # Link at:
 
-https://white-field-0655c120f.2.azurestaticapps.net/
+https://zealous-smoke-0192dff10.2.azurestaticapps.net
 
 # Basic Modifications
 
