@@ -9,7 +9,7 @@ const Contacts = () => {
             <h1 class="cont_title">Contact Me</h1>
 
             <section class="contacts">
-                <body class = 'linked'>LinkedIn: https://www.linkedin.com/in/sebastian-infante-murguia-670817220/</body>
+                <body class = 'linked'>LinkedIn: https://www.linkedin.com/in/infante-seb/</body>
                 <body class = 'email'>Personal Email: sebinfante12@gmail.com</body>
             </section>
         </body>
